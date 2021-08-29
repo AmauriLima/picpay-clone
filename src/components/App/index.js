@@ -1,10 +1,12 @@
 import React from 'react';
-import { Container, Text } from './styles';
+import { NavigationContainer } from '@react-navigation/native';
+
+import Navigation from '../Navigation';
 
 export default function App() {
   return (
-    <Container>
-      <Text>Hello World!</Text>
-    </Container>
+    <NavigationContainer>
+      <Navigation />
+    </NavigationContainer>
   );
 }
