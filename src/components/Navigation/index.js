@@ -33,6 +33,7 @@ export default function Navigation() {
   return (
     <Tab.Navigator
       screenOptions={({ route, navigation }) => ({
+        headerShown: false,
         tabBarIcon: ({ color, size, focused }) => {
           if (route.name === 'Pay') {
             return (
